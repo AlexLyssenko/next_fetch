@@ -11,7 +11,7 @@ export interface Item {
 }
 
 export async function generateStaticParams(): Promise<{ id: string }[]> {
-  return data.map((item: Item) => {
+  return data.slice(0, 50).map((item: Item) => {
     return { id: item.id };
   });
 }
