@@ -3,8 +3,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Next.js App Router',
-    template: '%s | Next.js App Router',
+    default: 'Fetch demo',
+    template: 'Fetch demo',
   },
   description: 'Demo app description',
   openGraph: {
