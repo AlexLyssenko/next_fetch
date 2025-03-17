@@ -26,6 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="[color-scheme:dark]">
+    <meta name="msvalidate.01" content="D131A4DC4BABA108E2607C4F1B370F25" />
       <body className="bg-gray-1100 overflow-y-scroll bg-[url('/grid.svg')] pb-36">
         <div className="bg-vc-border-gradient rounded-lg p-px shadow-lg shadow-black/20">
           <div className="rounded-lg bg-black p-3.5 lg:p-6">{children}</div>
